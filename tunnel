@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Define the rule
+RULE="iptables -t nat -I OUTPUT -p tcp --syn -j REDIRECT --to-ports <PORT>"
+
+# Function to turn the rule on
+turn_on() {
+    echo "Turning the rule ON"
+    $RULE
+}
+
+# Function to turn the rule off
+turn_off() {
+    echo "Turning the rule OFF"
+    iptables -t nat -D OUTPUT -p tcp --syn -j REDIRECT --to-ports <PORT>
+}
+
+# Prompt user for action
+echo "1. Turn the rule ON"
+echo "2. Turn the rule OFF"
+read -p "Enter your choice (1 or 2): " choice
+
+# Perform the chosen action
+case $choice in
+    1)
+        turn_on
+        ;;
+    2)
+        turn_off
+        ;;
+    *)
+        echo "Invalid choice. Exiting."
+        ;;
+esac
