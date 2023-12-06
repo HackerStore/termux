@@ -1,24 +1,24 @@
 # nano ~/.termux/colors.properties
 
-background=#FFFFFF  # White
-foreground=#000000  # Black
-cursor=#FF0000       # Magenta
+background=#FFFFFF  
+foreground=#000000  
+cursor=#FF0000      
 
-color0=#FFFFFF       # White
-color1=#FF0000       # Red
-color2=#00008B       # DarkBlue
-color3=#968a38       # Olive
-color4=#FF0000      # Purple
-color5=#963c59       # Maroon
-color6=#418179       # Teal
-color7=#00008B       # Black
-color8=#666666       # Gray
-color9=#cf6171       # Salmon
-color10=#c5f779      # LightGreen
-color11=#fff796      # LightYellow
-color12=#4186be      # MediumBlue
-color13=#FF0000     # MediumPurple
-color14=#71bebe      # MediumCyan
-color15=#000000       # Black
+color0=#FFFFFF      
+color1=#FF0000      
+color2=#00008B     
+color3=#968a38      
+color4=#FF0000     
+color5=#963c59       
+color6=#418179      
+color7=#00008B      
+color8=#666666      
+color9=#cf6171       
+color10=#c5f779      
+color11=#fff796      
+color12=#4186be     
+color13=#FF0000     
+color14=#71bebe     
+color15=#000000      
 
 #  soucre ~/.termux/colors.properties
