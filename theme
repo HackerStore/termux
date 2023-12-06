@@ -2,22 +2,22 @@
 
 background=#FFFFFF  # White
 foreground=#000000  # Black
-cursor=#FF00FF      # Magenta
+cursor=#FF0000       # Magenta
 
 color0=#FFFFFF       # White
 color1=#FF0000       # Red
 color2=#00008B       # DarkBlue
 color3=#968a38       # Olive
-color4=#414171       # Purple
+color4=#FF0000      # Purple
 color5=#963c59       # Maroon
 color6=#418179       # Teal
-color7=#000000       # Black
+color7=#00008B       # Black
 color8=#666666       # Gray
 color9=#cf6171       # Salmon
 color10=#c5f779      # LightGreen
 color11=#fff796      # LightYellow
 color12=#4186be      # MediumBlue
-color13=#cf9ebe      # MediumPurple
+color13=#FF0000     # MediumPurple
 color14=#71bebe      # MediumCyan
 color15=#000000       # Black
 
